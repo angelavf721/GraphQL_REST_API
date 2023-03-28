@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="945f84bd-54c4-4728-a023-f91921a17284" name="Changes" comment="Listar,Criar,Editar e Excluir user" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NdqZLEvDD7T4XSHZN4aSDJlfIB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.User">
+    <configuration name="User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.EditarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
+      <option name="METHOD_NAME" value="EditarUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.ExcluirUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
+      <option name="METHOD_NAME" value="ExcluirUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.criarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
+      <option name="METHOD_NAME" value="criarUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User.t04_ExcluirUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIGraphQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
+      <option name="METHOD_NAME" value="t04_ExcluirUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.User" />
+        <item itemvalue="JUnit.User.t04_ExcluirUsuario" />
+        <item itemvalue="JUnit.User.EditarUsuario" />
+        <item itemvalue="JUnit.User.criarUsuario" />
+        <item itemvalue="JUnit.User.ExcluirUsuario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="945f84bd-54c4-4728-a023-f91921a17284" name="Changes" comment="" />
+      <created>1680004370221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680004370221</updated>
+      <workItem from="1680004372423" duration="18168000" />
+    </task>
+    <task id="LOCAL-00001" summary="Listar,Criar,Editar e Excluir user">
+      <created>1680026735567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680026735567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Listar,Criar,Editar e Excluir user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listar,Criar,Editar e Excluir user" />
+  </component>
+</project>

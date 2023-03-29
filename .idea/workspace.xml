@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945f84bd-54c4-4728-a023-f91921a17284" name="Changes" comment="Listar,Criar,Editar e Excluir user" />
+    <list default="true" id="945f84bd-54c4-4728-a023-f91921a17284" name="Changes" comment="Listar,Criar,Editar e Excluir user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/ce/rest/test/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/ce/rest/test/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,20 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.User">
     <configuration name="User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIGraphQL" />
@@ -66,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User.EditarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="User.t01_listarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIGraphQL" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.rest.test" />
       <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
-      <option name="METHOD_NAME" value="EditarUsuario" />
+      <option name="METHOD_NAME" value="t01_listarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User.ExcluirUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="User.t02_naoCriarUsuarioComMesmoEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIGraphQL" />
       <extension name="coverage">
         <pattern>
@@ -92,13 +96,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.rest.test" />
       <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
-      <option name="METHOD_NAME" value="ExcluirUsuario" />
+      <option name="METHOD_NAME" value="t02_naoCriarUsuarioComMesmoEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User.criarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="User.t06_naoCriarUsuarioVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIGraphQL" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.rest.test" />
       <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
-      <option name="METHOD_NAME" value="criarUsuario" />
+      <option name="METHOD_NAME" value="t06_naoCriarUsuarioVazio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User.t04_ExcluirUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="User.t07_naoEditarUsuarioComCampovazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIGraphQL" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ce.rest.test" />
       <option name="MAIN_CLASS_NAME" value="br.ce.rest.test.User" />
-      <option name="METHOD_NAME" value="t04_ExcluirUsuario" />
+      <option name="METHOD_NAME" value="t07_naoEditarUsuarioComCampovazio" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.User" />
-        <item itemvalue="JUnit.User.t04_ExcluirUsuario" />
-        <item itemvalue="JUnit.User.EditarUsuario" />
-        <item itemvalue="JUnit.User.criarUsuario" />
-        <item itemvalue="JUnit.User.ExcluirUsuario" />
+        <item itemvalue="JUnit.User.t01_listarUsuario" />
+        <item itemvalue="JUnit.User.t07_naoEditarUsuarioComCampovazio" />
+        <item itemvalue="JUnit.User.t06_naoCriarUsuarioVazio" />
+        <item itemvalue="JUnit.User.t02_naoCriarUsuarioComMesmoEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +152,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680004370221</updated>
-      <workItem from="1680004372423" duration="18168000" />
+      <workItem from="1680004372423" duration="18618000" />
+      <workItem from="1680093504082" duration="696000" />
+      <workItem from="1680101156504" duration="5227000" />
     </task>
     <task id="LOCAL-00001" summary="Listar,Criar,Editar e Excluir user">
       <created>1680026735567</created>
@@ -157,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680026735567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Listar,Criar,Editar e Excluir user">
+      <created>1680026828175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680026828175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

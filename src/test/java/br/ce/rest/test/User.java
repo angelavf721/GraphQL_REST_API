@@ -23,7 +23,7 @@ public class User extends Base {
         .when()
             .get("/users")
         .then()
-            .log().all()
+                .log().all()
             .statusCode(200);
     }
     @Test
@@ -34,12 +34,12 @@ public class User extends Base {
         user.put("gender","female");
         user.put("status","active");
         userId = given()
-                .body(user)
+                    .body(user)
                 .when()
-                .post("/users")
+                    .post("/users")
                 .then()
-                .statusCode(201)
-                .extract().path("id");
+                    .statusCode(201)
+                    .extract().path("id");
     }
     @Test
     public void t03_naoCriarUsuarioComMesmoEmail(){
@@ -49,52 +49,52 @@ public class User extends Base {
         user.put("gender","female");
         user.put("status","active");
         given()
-                .body(user)
-                .when()
-                .post("/users")
-                .then()
-                .statusCode(422)
-                .body("$",hasSize(1))
-                .body("field", hasItem("email"))
-                .body("message", hasItem("has already been taken"));
+            .body(user)
+        .when()
+            .post("/users")
+        .then()
+            .statusCode(422)
+            .body("$",hasSize(1))
+            .body("field", hasItem("email"))
+            .body("message", hasItem("has already been taken"));
     }
     @Test
     public void t04_EditarUsuario(){
         Map<String, String> user = new HashMap<>();
         user.put("name","Maria");
         user.put("email","MariaDoCarmo@gamail.com");
-        user.put("gender","male");
+        user.put("gender","female");
         user.put("status","active");
         given()
-                .body(user)
-                .pathParam("id", userId)
-                .when()
-                .put("/users/{id}")
-                .then()
-                .statusCode(200);
+            .body(user)
+            .pathParam("id", userId)
+        .when()
+            .put("/users/{id}")
+        .then()
+            .statusCode(200);
     }
 
     @Test
     public void t05_ExcluirUsuario(){
         given()
-                .pathParam("id", userId)
-                .when()
-                .delete("/users/{id}")
-                .then()
-                .statusCode(204);
+            .pathParam("id", userId)
+        .when()
+            .delete("/users/{id}")
+        .then()
+            .statusCode(204);
     }
 
     @Test
     public void t06_naoCriarUsuarioVazio(){
         given()
-                .when()
-                .post("/users")
-                .then()
-                .statusCode(422)
-                .body("$",hasSize(4))
-                .body("message", hasItems(
-                        "can't be blank", "can't be blank",
-                        "can't be blank, can be male of female","can't be blank"));
+        .when()
+            .post("/users")
+        .then()
+            .statusCode(422)
+            .body("$",hasSize(4))
+            .body("message", hasItems(
+            "can't be blank", "can't be blank",
+            "can't be blank, can be male of female","can't be blank"));
     }
 
 

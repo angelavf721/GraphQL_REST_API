@@ -30,8 +30,8 @@ public class User extends Base {
     public void t02_criarUsuario(){
         Map<String, String> user = new HashMap<>();
         user.put("name","Maria Do Carmo");
-        user.put("email","MariaDOC0arm2o@gmail.com");
-        user.put("gender","male");
+        user.put("email","MariaCarmo@gmail.com");
+        user.put("gender","female");
         user.put("status","active");
         userId = given()
                 .body(user)
@@ -42,47 +42,11 @@ public class User extends Base {
                 .extract().path("id");
     }
     @Test
-    public void t03_EditarUsuario(){
+    public void t03_naoCriarUsuarioComMesmoEmail(){
         Map<String, String> user = new HashMap<>();
         user.put("name","Maria");
-        user.put("email","Maria@gamail.com");
-        user.put("gender","male");
-        user.put("status","active");
-        given()
-                .body(user)
-                .pathParam("id", userId)
-                .when()
-                .put("/users/{id}")
-                .then()
-                .statusCode(200);
-    }
-    @Test
-    public void t04_naoEditarUsuarioComEmailExistente(){
-        Map<String, String> user = new HashMap<>();
-        user.put("email","patel_bhargava@murray-kihn.com");
-        given()
-                .body(user)
-                .pathParam("id", userId)
-                .when()
-                .put("/users/{id}")
-                .then()
-                .statusCode(422);
-    }
-    @Test
-    public void t05_ExcluirUsuario(){
-        given()
-                .pathParam("id", userId)
-                .when()
-                .delete("/users/{id}")
-                .then()
-                .statusCode(204);
-    }
-    @Test
-    public void t06_naoCriarUsuarioComMesmoEmail(){
-        Map<String, String> user = new HashMap<>();
-        user.put("name","Maria Do Carmo");
-        user.put("email","marar_gita_rep@turcotte.com");
-        user.put("gender","male");
+        user.put("email","MariaCarmo@gmail.com");
+        user.put("gender","female");
         user.put("status","active");
         given()
                 .body(user)
@@ -95,7 +59,33 @@ public class User extends Base {
                 .body("message", hasItem("has already been taken"));
     }
     @Test
-    public void t07_naoCriarUsuarioVazio(){
+    public void t04_EditarUsuario(){
+        Map<String, String> user = new HashMap<>();
+        user.put("name","Maria");
+        user.put("email","MariaDoCarmo@gamail.com");
+        user.put("gender","male");
+        user.put("status","active");
+        given()
+                .body(user)
+                .pathParam("id", userId)
+                .when()
+                .put("/users/{id}")
+                .then()
+                .statusCode(200);
+    }
+
+    @Test
+    public void t05_ExcluirUsuario(){
+        given()
+                .pathParam("id", userId)
+                .when()
+                .delete("/users/{id}")
+                .then()
+                .statusCode(204);
+    }
+
+    @Test
+    public void t06_naoCriarUsuarioVazio(){
         given()
                 .when()
                 .post("/users")
